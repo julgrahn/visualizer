@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import Node from './Node/Node';
-
 import './PathfindingVisualizer.css';
 
 export default class PathfindingVisualizer extends Component {
@@ -12,7 +11,8 @@ export default class PathfindingVisualizer extends Component {
     render()
     {
         return (
-            <div>Foo
+            <div>
+                Foo
                 <Node></Node>
             </div>
         )
